@@ -1,0 +1,32 @@
+body {
+    background-image: url('123.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+}
+
+h1 {
+    color:black;    
+}
+
+.login {
+    width: 300px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 70px 30px;    
+    text-align: center;
+    color: white;       
+}
+    
+button {
+    background-color: #A9D8C6;
+    width: 170px;
+    border: 3px solid #558E99;
+    border-radius: 7px;
+    color: white;
+}
+

@@ -1,16 +1,31 @@
 body {
-    background-image: url('123.jpg');
+    background-image: url('456.jpg');
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+   /* background-size: 100% 100%;*/
     background-attachment: fixed;
-    
+    background-position: center;
 }
 
-h1 {
-    color:black;    
+.h1_login {
+    color:rgb(0, 0, 0);    
 }
 
 .login {
+    background-color: rgba(0, 33, 179, 0.295);
+    box-shadow: #7e0f0f -4px 4px 12px 4px;
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 70px 30px;    
+    text-align: center;
+    color: rgb(255, 255, 255);  
+}
+ 
+.sobre {
     width: 300px;
     height: 300px;
     top: 50%;
@@ -19,14 +34,28 @@ h1 {
     transform: translate(-50%, -50%);
     padding: 70px 30px;    
     text-align: center;
-    color: white;       
+    color: white;  
 }
-    
-button {
-    background-color: #A9D8C6;
-    width: 170px;
-    border: 3px solid #558E99;
+button {    
+    width: 170px;    
     border-radius: 7px;
-    color: white;
+    color: rgb(2, 0, 0);   
+    transition: background-color 0.3s ease, transform 0.2s ease;     
 }
+button:hover {
+    background-color: #0bb33d6e;
+    transform: scale(1.05);
+}
+
+footer {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 98%;
+}
+
+
+
+
 
